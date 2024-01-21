@@ -15,7 +15,7 @@ const CaseDetailsModal = ({ caseDetails, handleClose }) => {
         <span className="close" onClick={handleClose}>&times;</span>
         <h2>Case Details</h2>
         <div className="section">
-          <h3>Plaintiff Details</h3>
+          <h3>Plaintiff Detail</h3>
           {/* Display plaintiffDetails information */}
           <p>Name: {plaintiffDetails.fullName}</p>
           <p>Gender: {plaintiffDetails.gender}</p>
