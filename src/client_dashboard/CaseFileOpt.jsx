@@ -12,7 +12,7 @@ export default function FileACaseMin() {
   };
 
   return (
-    <div className='main-container'>
+    <div className='main-container'> 
       <div className="three-option-container">
         <div className='three-button-container'>
           <button

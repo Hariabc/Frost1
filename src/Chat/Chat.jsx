@@ -15,7 +15,7 @@ export default function Chat() {
             const response = await axios.get('http://localhost:5000/client/user', { withCredentials: true });
             setUserData(response.data.user);
           } catch (error) {
-            console.error('Error fetching user data:', error);
+            console.error('Error fetching user data: ', error);
           }
         };
     
