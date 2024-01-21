@@ -23,7 +23,6 @@ import HomeCon from './Features/Video_Conference/homeCon.jsx';
 import Room from './Features/Video_Conference/Room.jsx';
 import AdvocateConference from './Features/AdvocateConference.jsx';
 import CaseTracking from './client_dashboard/CaseTracking.jsx';
-import "./index.css"
 import Layout from './components/Layout.jsx';
 import Profile from './client/Profile.jsx';
 import PubAdvReg from "./components/publicadvreg.jsx";
@@ -31,7 +30,6 @@ import JudgeReg from "./components/Judgereg.jsx"
 import LoginPage from "./pages/login.jsx"
 import { AuthProvider } from './AuthContext'; // assuming you have AuthContext set up
 import Chat from './Chat/Chat.jsx';
-import Apps from './Temp.jsx';
 import "./app.css"
 import Casefileopt from "./client_dashboard/CaseFileOpt.jsx"
 import ClientCases from './client_dashboard/casedetails.jsx'
@@ -79,7 +77,6 @@ const App = () => {
           <Route path="/advocate/register/complete/:token" element={<PubAdvReg />} />
           <Route path="/judge/register/complete/:token" element={<JudgeReg/>} />
           <Route path='/chat' element={<Chat/>}/> 
-          <Route path='/temp' element={<Apps/>}/> 
           <Route path='/casefilingform' element={<CaseFilingForm/>}/>
           <Route path='/fileacase' element={<FileACaseMin/>}/>
           <Route path='/client/pre-trial' element={<VideoConference/>}/>
