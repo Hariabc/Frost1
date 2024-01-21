@@ -9,7 +9,7 @@ const clientSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  emai: {
+  email: {
     type: String,
     required: true,
     unique: true
