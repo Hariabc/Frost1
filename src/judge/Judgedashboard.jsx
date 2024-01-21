@@ -155,7 +155,7 @@ export default JudgeDashboard;
 
 const BriefcaseDashboard = () => {
   const linksDataBriefcase = [
-  { path: "/schedule-pre-trial", label: "Pre Trial", image: confrence },
+  { path: "/client/homecon/:meetingID", label: "Pre Trial", image: confrence },
   { path: "/documentation", label: "Documentation", image: document },
   { path: "/judge/scheduling-event", label: "Calendar Scheduling", image: scheduling },
   { path: "/judge/my-cases", label: "My Cases", image: casedetails },
