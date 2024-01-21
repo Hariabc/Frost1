@@ -19,7 +19,7 @@ const authenticateToken = async (req, res, next) => {
         next();
     } catch (error) {
         console.error('Authentication error:', error);
-        return res.status(401).json({ error: 'authorized' });
+        return res.status(401).json({ error: 'Unauthorized' });
     }
 };
 
