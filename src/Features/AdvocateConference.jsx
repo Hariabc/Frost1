@@ -3,7 +3,7 @@ import axios from 'axios';
 import "./VideoConference.css";
 import { useNavigate } from 'react-router-dom';
 
-const AdvocateConference = () => {
+const AdvocateConference = () => { 
   const navigate = useNavigate();
 
   const handleJoinClick = () => {
@@ -11,7 +11,7 @@ const AdvocateConference = () => {
     navigate(`/homecon`);  // Assuming you need to pass the conference ID to the Home component
   };
 
-  const [conferences, setConference] = useState([]);
+  const [conferences, setConference] = useState([]); 
 
   useEffect(() => {
     const fetchScheduledConferences = async () => {
