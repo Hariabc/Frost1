@@ -49,3 +49,4 @@ const DocumentUploadForm = ({ onChange , onNext }) => {
 };
 
 export default DocumentUploadForm;
+
